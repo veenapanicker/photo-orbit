@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life, lately</title>
+  <meta name="description" content="A few favorite moments: good company and a little adventure.">
+  <link rel="stylesheet" href="style.css">
+  <script src="photos.js" defer></script><script src="orbit.js" defer></script><script src="gallery.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><span>Your Name</span></header>
+    <section class="gallery" tabindex="0" aria-labelledby="gallery-title" aria-describedby="gallery-instructions">
+      <div class="intro"><h1 id="gallery-title">Life,<br>lately<span>.</span></h1><p>Good company and a little adventure.</p></div>
+      <div id="photos" aria-label="Photo collection"></div>
+    </section>
+    <footer><span id="gallery-instructions">Drag to explore, tap a photo<span class="sr-only">. Use arrow keys to rotate, or Tab and Enter to open a photo.</span></span><div class="motion-controls"><button id="pause" type="button" aria-pressed="false">Pause</button></div></footer>
+  </main>
+  <dialog id="viewer" aria-label="Enlarged photo"><button class="close" aria-label="Close enlarged photo">✕</button><figure><img id="full-photo" alt=""><figcaption id="caption" hidden aria-live="polite"></figcaption></figure><div class="viewer-nav"><button id="previous" aria-label="Previous photo">←</button><button id="next" aria-label="Next photo">→</button></div></dialog>
+</body>
+</html>
