@@ -4,9 +4,9 @@ A playful rotating photo gallery built with plain HTML, CSS, and JavaScript. Ins
 
 ## Demo
 
-[![Watch the 13-second Photo Orbit demo](demo-preview.jpg)](https://github.com/veenapanicker/photo-orbit/raw/refs/heads/main/demo.mp4)
+https://github.com/user-attachments/assets/246bce38-0ce4-4f5d-af38-2d4de3c9532c
 
-[Watch or download the demo video](https://github.com/veenapanicker/photo-orbit/raw/refs/heads/main/demo.mp4) · 13 seconds · 3.8 MB
+13 seconds · 3.8 MB
 
 The video shows Veena’s personal gallery. The runnable template uses placeholder artwork. Personal photographs visible in the demo are not covered by the MIT license or offered for reuse.
 
@@ -40,7 +40,7 @@ Open http://localhost:8000. The included abstract SVG artwork makes the demo usa
 4. Use actual image dimensions and meaningful alt text. WebP thumbnails around 400–600 pixels on the long edge reduce initial downloads. Full images around 1800 pixels are a useful starting point.
 5. Replace “Your Name”, title, and subtitle in `index.html`. Adjust colors, typography, and sizes in `style.css`. Rotation speed and depth live in `orbit.js`.
 
-Keep captions as plain text. They are rendered with textContent, not HTML. The demo contains no personal photographs or personal captions.
+Keep captions as plain text. They are rendered with textContent, not HTML. The runnable template contains no personal photographs or personal captions.
 
 ## Interactions
 
