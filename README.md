@@ -2,6 +2,26 @@
 
 A playful rotating photo gallery built with plain HTML, CSS, and JavaScript. Inspired by the photo interaction on ramp.design; independently implemented for Veena Panicker. No build tools or framework required.
 
+## Demo
+
+[![Watch the 13-second Photo Orbit demo](demo-preview.jpg)](https://github.com/veenapanicker/photo-orbit/raw/refs/heads/main/demo.mp4)
+
+[Watch or download the demo video](https://github.com/veenapanicker/photo-orbit/raw/refs/heads/main/demo.mp4) · 13 seconds · 3.8 MB
+
+The video shows Veena’s personal gallery. The runnable template uses placeholder artwork. Personal photographs visible in the demo are not covered by the MIT license or offered for reuse.
+
+## Build your own with AI
+
+Paste the repository link and this prompt into a coding assistant with repository/file access:
+
+> Help me build my own photo gallery using https://github.com/veenapanicker/photo-orbit. Follow the README, keep the rotating gallery and interactions, and help me replace the placeholders with my own photos and captions. Then help me preview and publish it. Preserve the license and Ramp inspiration credit.
+
+A chat without coding tools may only provide instructions. Hosting may require your own account.
+
+## Inspiration
+
+Inspired by the “Beyond the Work” photo experience at [ramp.design](https://ramp.design/). This is an independent implementation and is not affiliated with or endorsed by Ramp.
+
 ## Run locally
 
 With Python 3 installed, open a terminal in this folder and run:
